@@ -1,0 +1,74 @@
+@font-face {
+    font-family: "Gontserrat";
+    src: url(Gontserrat-Black.tff) format("truetype");
+    font-weight: normal;
+}
+
+  @font-face {
+    font-family: "Gontserrat";
+    src: url(Gontserrat-Black-Italic.tff) format("truetype");
+    font-weight: italic;
+}
+
+body {
+    min-height:         90vh;
+    display:            flex;
+    flex-direction:     column;
+    align-items:        center;
+    justify-content:    center;
+    font-family:        "Gontserrat", Arial;
+    font-weight:        italic;
+    background:         #FFFFFF;
+    background:         linear-gradient(
+        to top,
+        #009BC8,
+        #003764
+    );
+}
+
+header {
+    flex-direction:     row;
+    display:            flex;
+    justify-content:    space-around;
+    font-size:          90px;
+    
+}
+.nw {
+    content:    url(../media/03.png);
+    width:      70px;
+}
+
+.input-field {
+    padding:       10px 0 10px 0;
+}
+
+.input {
+    height:         20px;
+    width:          100%;
+    border:         none;
+    outline-color:  black;
+    border-radius:  5px
+}
+
+.bottom {
+    flex-direction:     row;
+    display:            flex;
+    justify-content:    space-around;
+    margin-top:         10px
+}
+
+.submit {
+    border:         none;
+    border-radius:  30px;
+    font-size:      15px;
+    height:         45px;
+    outline:        none;
+    width:          100%;
+    background:     rgba(255,255,255,0.7);
+    cursor:         pointer;
+    transition:     .3
+}
+
+.submit:hover {
+    box-shadow: 1px 5px 7 1px rgba(0,0,0,0.2)
+}
