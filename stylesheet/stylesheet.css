@@ -56,19 +56,3 @@ header {
     justify-content:    space-around;
     margin-top:         10px
 }
-
-.submit {
-    border:         none;
-    border-radius:  30px;
-    font-size:      15px;
-    height:         45px;
-    outline:        none;
-    width:          100%;
-    background:     rgba(255,255,255,0.7);
-    cursor:         pointer;
-    transition:     .3
-}
-
-.submit:hover {
-    box-shadow: 1px 5px 7 1px rgba(0,0,0,0.2)
-}
